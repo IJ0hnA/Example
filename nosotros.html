@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Portal Web Informativo, con el fin de hacerle seguimiento a los centros bolivarianos de informatica y telematica">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
+	<link rel="stylesheet" href="css/pushbar.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>CBIT NOTICIAS</title>
+</head>
+
+<body>
+	<div class="contenedor">
+		<header>
+			<div id="log">
+				<h1>CBIT NOTICIAS</h1>
+			</div>
+			<h2>Slogan</h2>
+		</header>
+		<main>
+			<nav>
+				<button class="btn-menu" data-pushbar-target="pushbar-menu"><i class="fas fa-bars"></i></button>
+				<p>Menú</p>
+				<a href="index.html" class="banner" data-pushbar-target="pushbar-productos">Centro Bolivariano de Informática y
+					Telemática</a>
+			</nav>
+
+		</main>
+
+		<!-- Pushbars: Menu -->
+		<div data-pushbar-id="pushbar-menu" class="pushbar from_left pushbar-menu">
+			<div class="btn-cerrar">
+				<button data-pushbar-close><i class="fas fa-times"></i></button>
+			</div>
+			<nav class="menu">
+				<a href="index.html">Inicio</a>
+				<a href="nosotros.html">Nosotros</a>
+				<a href="noticias.html">Noticias</a>
+				<a href="#">Colegios</a>
+				<a href="#" id="user"><i class="fas fa-user"></i>Usuario</a>
+			</nav>
+		</div>
+
+		<!-- Codigo de Informacion de los Centros -->
+		<article>
+			<h1>Centros Bolivarianos de Informática y Telemática</h1>
+			<hr>
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus quam quibusdam nihil similique et voluptates
+				accusamus debitis quia facilis repellendus?</p>
+
+				<img src="cripto.jpg" alt="no se muestra">
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ex, unde alias architecto cupiditate, facilis nisi,
+				incidunt fugiat soluta rerum voluptate, mollitia natus praesentium sunt repellat quidem? Consequatur, nihil. Dolore
+				fuga officiis, similique animi, asperiores quia aspernatur eius. Provident, ipsam, dolores.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, voluptate dolorum! Eius optio, tempore
+				temporibus, totam qui illum nihil. Earum, rerum quae magni aliquid optio repellat, rem assumenda eius accusantium
+				facilis nam accusamus aperiam at dolorum iure nihil dicta aut modi doloribus excepturi cumque odio! Molestias at
+				dolor ab consectetur.</p>
+
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci architecto excepturi enim reprehenderit
+				expedita, mollitia animi autem sed reiciendis laudantium culpa natus ea blanditiis ullam molestias itaque
+				laboriosam sunt quidem.</p>
+		</article>
+
+		<!-- Fin Codigo de Informacion de los Centros -->
+
+
+		<!-- Pushbars: Newsletter -->
+
+	</div>
+
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+	<script src="js/pushbar.js"></script>
+	<script>
+		var pushbar = new Pushbar({
+			blur: true,
+			overlay: true
+		});
+	</script> <!-- Codigo de js que permite colocar un transparente cuendo se despliegue el menu -->
+</body>
+
+</html>
