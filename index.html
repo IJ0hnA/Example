@@ -8,23 +8,78 @@
 	<title>CBIT NOTICIAS</title>
 
 	<link href="https://fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
+	 crossorigin="anonymous">
 	<link href="./css/bootstrap.min.css" rel="stylesheet">
 	<link href="./css/mdb.min.css" rel="stylesheet">
 	<link href="./css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="hidden-sn">
+	<header>
+		<div id="slide-out" class="side-nav sn-bg-4 red darken-4">
+			<ul class="custom-scrollbar">
+				<li>
+					<div class="logo-wrapper waves-light">
+						<a href="./"><img src="./img/fundabit-logo_white.png" class="img-fluid flex-center"></a>
+					</div>
+				</li>
+				<li>
+					<ul class="social">
+						<li class="mx-1">
+							<a href="//www.facebook.com/pages/category/Community/CBIT-131672390202656/" target="_blank" class="icons-sm text-white"><i class="fab fa-facebook-f"></i></a>
+						</li>
+						<li class="mx-1">
+							<a href="//twitter.com/fundabit?lang=es" target="_blank" class="icons-sm text-white"><i class="fab fa-twitter"></i></a>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<form class="search-form" role="search">
+						<div class="form-group md-form mt-0 pt-1 waves-light">
+							<input type="text" class="form-control search-input" placeholder="Buscar...">
+						</div>
+					</form>
+				</li>
+				<li>
+					<ul class="collapsible collapsible-accordion">
+						<li>
+							<a href="./" class="waves-effect"><i class="fas fa-home mr-2"></i> Inicio</a>
+						</li>
+						<li>
+							<a href="#!" class="waves-effect"><i class="fas fa-building mr-2"></i> Sobre Nosotros</a>
+						</li>
+						<li>
+							<a href="#!" class="waves-effect"><i class="fas fa-newspaper mr-2"></i> Noticias</a>
+						</li>
+						<li>
+							<a href="#!" class="waves-effect"><i class="fas fa-school mr-2"></i> Colegios</a>
+						</li>
+					</ul>
+				</li>
+			</ul>
+			<div class="sidenav-bg mask-strong"></div>
+		</div>
+		<nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav red darken-4">
+			<div class="float-left">
+				<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
+			</div>
+			<div class="breadcrumb-dn text-center button-collapse" data-activates="slide-out">
+				<p class="h4 h4-responsive text-white">CBIT Noticias</p>
+			</div>
+		</nav>
+	</header>
+
+	<main>
+		<div class="container">
+			<p class="h1 h1-responsive text-uppercase text-center">cbit noticias</p>
+			<p class="h3 h3-responsive text-center text-muted">Slogan</p>
+
+			<img src="./img/fundabit_logo.png" alt="" class="img-fluid d-block mx-auto logo-fundabit pt-4 z-depth-2 rounded">
+		</div>
+	</main>
+
 	<div class="contenedor">
-		<header>
-			<div id="log">
-				<h1>CBIT NOTICIAS</h1>
-			</div>
-			<h2>Slogan</h2>
-			<div id="fundabit">
-				<img src="cropped-fundabitua.png">
-			</div>
-		</header>
 		<main>
 			<nav>
 				<button class="btn-menu" data-pushbar-target="pushbar-menu"><i class="fas fa-bars"></i></button>
@@ -50,22 +105,11 @@
 		</div>
 	</div>
 
-	<!-- Bienvenida Codigo Slider -->
-
-	<!-- Fin Codigo de Slider -->
-
-	<script src="./js/pushbar.js"></script>
-	<script>
-		var pushbar = new Pushbar({
-			blur: true,
-			overlay: true
-		});
-	</script> <!-- Codigo de js que permite colocar un transparente cuendo se despliegue el menu -->
-
 	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
 	<script type="text/javascript" src="./js/popper.min.js"></script>
 	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
 	<script type="text/javascript" src="./js/mdb.min.js"></script>
+	<script type="text/javascript" src="./js/scripts.js"></script>
 </body>
 
 </html>

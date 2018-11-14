@@ -1,0 +1,314 @@
+* {
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #ffffffe8;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding-bottom: 120px;
+  }
+  
+  ul,ol{
+    list-style: none;
+  }
+  
+  /* ----- ----- HEADER ----- ----- */
+  header {
+    width: 100%;
+    text-align: center;
+    padding: 60px 0;
+  }
+  
+  header h1 {
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 10px;
+  }
+  
+  header h2 {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 24px;
+    color: #919191;
+  }
+  
+  /* ----- ----- MAIN ----- ----- */
+  main {
+    width: 100%;
+  }
+  
+  main nav {
+    width: 100%;
+    display: flex;
+    margin-bottom: 60px;
+  }
+  
+  main nav p {
+    display: flex;
+    margin-top: 10px;
+    margin-right: 5px;
+    font-size: 28px;
+  }
+  
+  main nav .btn-menu {
+    display: inline-block;
+    width: 65px;
+    height: 65px;
+    border: 1px solid #000;
+    background: transparent;
+    cursor: pointer;
+    font-size: 28px;
+    margin-right: 5px;
+    transition: 0.3s ease all;
+  }
+  
+  main nav .btn-menu:hover {
+    border: 1px solid #828282;
+    color: #828282;
+  }
+  
+  main nav .banner {
+    display: inline-block;
+    width: 90%;
+    background-image: url('../img/banner1.jpeg');
+    background-size: cover;
+    text-align: center;
+    height: 65px;
+    line-height: 65px;
+    font-size: 26px;
+    font-weight: 300;
+    color: #000000;
+  }
+  
+  /* ------------------------- */
+  /* Pushbars: Estilos Generales */
+  /* ------------------------- */
+  button {
+    float: left;
+  }
+  
+  .pushbar {
+    background: #ffffffe8;
+    color: rgb(0, 0, 0);
+    padding: 25px;
+  }
+  
+  .pushbar .btn-cerrar {
+    text-align: right;
+    margin-bottom: 20px;
+  }
+  
+  .pushbar .btn-cerrar button {
+    background: none;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+    font-size: 25px;
+  }
+  
+  /* ----- ----- Pushbar: Menu de Navegacion ----- ----- */
+  
+  .pushbar-menu a {
+    display: block;
+    color: #000000;
+    padding-top: 25px;
+    font-size: 25px;
+    font-weight: 300;
+    transition: 0.6s ease-in-out color;
+    text-decoration: none;
+  }
+  
+  .pushbar-menu a:hover {
+    color: #008cff;
+  }
+  
+  #user {
+    margin-top: 250px;
+    border-bottom: 2.5px solid #6bb0ffe5;
+  }
+  
+  #user a {
+    margin-right: 35px;
+  }
+  
+  /* ----- ----- Slider Codigo Inicio CSS ----- ----- */
+  
+  
+  
+  /* Slider Codigo CSS Fin */
+  
+  
+  /* ----- ----- Codigo Informativo ----- ----- */
+  article{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    background-color: #aed5f58e;
+    border-radius: 5px;
+  }
+  
+  /* ----- ----- Fin Codigo Informativo  ----- ----- */
+  
+  /*Inicio Codigo de Noticia*/
+  
+  /*Portada*/
+  
+  .container-portada{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    background-image: url('../img/portada.jpg');
+    background-size: 200%;
+    animation: movimiento 20s infinite linear alternate;  
+  }
+  
+  @keyframes movimiento{
+    from{
+        background-position: bottom left;
+    }to{
+        background-position: top right;
+    }
+  }
+  
+  
+  .capa-gradient{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    opacity: 0.5;
+  }
+  
+  .container-details{
+    width: 100%;
+    max-width: 1200px;
+    position: relative;
+    margin: auto;
+  }
+  
+  
+  .details{
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+    top: 20px;
+    color: white;
+  }
+  
+  .details h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+  
+  .details p{
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+  
+  .details button{
+    padding: 10px 20px;
+    font-size: 16px;
+    background: none;
+    border-style: none;
+    border: 1px solid white;
+    color: white;
+    margin-top: 20px;
+    transition: background 300ms;
+    cursor: pointer;
+    margin-left: 10px;
+  }
+  
+  .details button:hover{
+    background: white;
+    color: black;
+  }
+  
+  /* Fin del codigo de Noticia */
+  
+  /*Codigo del articulo de Noticia*/
+  
+  /*Articulo*/
+  
+  article{
+    width: 100%;
+    max-width: 800px;
+    margin-top: 20px;
+    padding-right: 20px;
+    align-content: center;
+  }
+  
+  article h1{
+    font-size: 40px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+  
+  article hr{
+    max-width: 500px;
+    height: 4px;
+    border-style: none;
+    background: -webkit-linear-gradient(left, black, #0672d0);
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  
+  article p{
+    font-size: 20px;
+    margin-top: 20px;
+    font-weight: 100;
+    margin-left: 10px;
+  }
+  
+  @media screen and (max-width: 500px){
+    .details p{
+        font-size: 18px;
+    }
+  }
+  
+  /*Fin del Codigo de Noticia*/
+  
+  /* ------------------------- */
+  /* MEDIA QUERIES */
+  /* ------------------------- */
+  @media screen and (max-width: 600px) {
+    header h1 {
+      font-size: 30px;
+      line-height: 30px;
+    }
+  
+    header h2 {
+      font-size: 16px;
+      line-height: 16px;
+    }
+  
+    main nav .banner {
+      font-size: 14px;
+    }
+  
+    main .productos {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    main .productos figure {
+      margin-bottom: 40px;
+    }
+  }
+  
