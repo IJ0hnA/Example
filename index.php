@@ -7,77 +7,11 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title>CBIT NOTICIAS</title>
 
-	<link href="//fonts.googleapis.com/css?family=Raleway:300,400" rel="stylesheet">
-	<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU"
-	 crossorigin="anonymous">
-	<link href="./css/bootstrap.min.css" rel="stylesheet">
-	<link href="./css/mdb.min.css" rel="stylesheet">
-	<link href="./css/style.css" rel="stylesheet">
+	<?php include './php/includes/styles.php' ?>
 </head>
 
 <body class="hidden-sn">
-	<header>
-		<div id="slide-out" class="side-nav sn-bg-4 red darken-4">
-			<ul class="custom-scrollbar">
-				<li>
-					<div class="logo-wrapper waves-light">
-						<a href="./"><img src="./img/fundabit-logo_white.png" class="img-fluid flex-center"></a>
-					</div>
-				</li>
-				<li>
-					<ul class="social">
-						<li class="mx-1">
-							<a href="//www.facebook.com/pages/category/Community/CBIT-131672390202656/" target="_blank" class="icons-sm text-white"><i
-								 class="fab fa-facebook-f"></i></a>
-						</li>
-						<li class="mx-1">
-							<a href="//twitter.com/fundabit" target="_blank" class="icons-sm text-white"><i class="fab fa-twitter"></i></a>
-						</li>
-					</ul>
-				</li>
-				<li>
-					<form class="search-form" role="search">
-						<div class="form-group md-form mt-0 pt-1 waves-light">
-							<input type="text" class="form-control search-input" placeholder="Buscar...">
-						</div>
-					</form>
-				</li>
-				<li>
-					<ul class="collapsible collapsible-accordion">
-						<li>
-							<a href="./" class="waves-effect"><i class="fas fa-home mr-2"></i> Inicio</a>
-						</li>
-						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-building mr-2"></i> Sobre Nosotros</a>
-						</li>
-						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-newspaper mr-2"></i> Noticias</a>
-						</li>
-						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-school mr-2"></i> Colegios</a>
-						</li>
-						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-envelope mr-2"></i> Contacto</a>
-						</li>
-					</ul>
-				</li>
-			</ul>
-			<div class="sidenav-bg mask-strong"></div>
-		</div>
-		<nav class="navbar fixed-top navbar-toggleable-md navbar-expand-lg scrolling-navbar double-nav red darken-4">
-			<div class="float-left">
-				<a href="#" data-activates="slide-out" class="button-collapse"><i class="fa fa-bars"></i></a>
-			</div>
-			<div class="breadcrumb-dn mr-auto button-collapse" data-activates="slide-out">
-				<img src="./img/cbit_logo.png" alt="CBIT" class="img-fluid ml-3" width="50">
-			</div>
-			<ul class="nav navbar-nav nav-flex-icons ml-auto">
-				<li class="nav-item">
-					<a href="#!" class="nav-link"><i class="fas fa-user mr-2"></i> <span class="clearfix d-none d-sm-inline-block">Usuario</span></a>
-				</li>
-			</ul>
-		</nav>
-	</header>
+	<?php include './php/includes/menu.php' ?>
 
 	<main>
 		<div class="container h-100">
@@ -341,106 +275,10 @@
 			</div>
 		</div>
 
-		<footer class="page-footer font-small unique-color-dark">
-
-			<div class="red darken-4">
-				<div class="container">
-
-					<div class="row py-4 d-flex align-items-center">
-
-						<div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-							<h6 class="mb-0">¡Conéctate con nosotros en las redes sociales!</h6>
-						</div>
-
-						<div class="col-md-6 col-lg-7 text-center text-md-right">
-
-							<!-- Facebook -->
-							<a class="fb-ic">
-								<i class="fab fa-facebook-f white-text mr-4"> </i>
-							</a>
-							<!-- Twitter -->
-							<a class="tw-ic">
-								<i class="fa fa-twitter white-text mr-4"> </i>
-							</a>
-							<!-- Google +-->
-							<a class="gplus-ic">
-								<i class="fa fa-google-plus white-text mr-4"> </i>
-							</a>
-							<!--Linkedin -->
-							<a class="li-ic">
-								<i class="fa fa-linkedin white-text mr-4"> </i>
-							</a>
-							<!--Instagram-->
-							<a class="ins-ic">
-								<i class="fa fa-instagram white-text"> </i>
-							</a>
-
-						</div>
-
-					</div>
-
-				</div>
-			</div>
-
-			<div class="container text-center text-md-left mt-5">
-
-				<div class="row mt-3">
-
-					<div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
-
-						<h6 class="text-uppercase font-weight-bold">cbit noticias</h6>
-						<hr class="red darken-4 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-						<p>Here you can use rows and columns here to organize your footer content. Lorem ipsum dolor sit amet,
-							consectetur
-							adipisicing elit.</p>
-
-					</div>
-
-					<div class="col-md-4 col-lg-2 col-xl-2 mx-auto mb-4">
-
-						<h6 class="text-uppercase font-weight-bold">enlaces útiles</h6>
-						<hr class="red darken-4 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-						<p>
-							<a href="#!">Sobre Nosotros</a>
-						</p>
-						<p>
-							<a href="#!">Noticias</a>
-						</p>
-						<p>
-							<a href="#!">Colegios</a>
-						</p>
-						<p>
-							<a href="#!">Contacto</a>
-						</p>
-
-					</div>
-
-					<div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
-
-						<h6 class="text-uppercase font-weight-bold">contacto</h6>
-						<hr class="red darken-4 accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-						<p><i class="fa fa-home mr-3"></i> New York, NY 10012, US</p>
-						<p><i class="fa fa-envelope mr-3"></i> info@example.com</p>
-						<p><i class="fa fa-phone mr-3"></i> + 01 234 567 88</p>
-
-					</div>
-
-				</div>
-
-			</div>
-
-			<div class="footer-copyright text-center py-3">© 2018 Copyright: <a href="./" class="text-white font-weight-bold">CBIT
-					- FUNDABIT</a> | Todos los derechos reservados.
-			</div>
-
-		</footer>
+		<?php include './php/includes/footer.php' ?>
 	</main>
 
-	<script type="text/javascript" src="./js/jquery-3.3.1.min.js"></script>
-	<script type="text/javascript" src="./js/popper.min.js"></script>
-	<script type="text/javascript" src="./js/bootstrap.min.js"></script>
-	<script type="text/javascript" src="./js/mdb.min.js"></script>
-	<script type="text/javascript" src="./js/scripts.js"></script>
+	<?php include './php/includes/scripts.php' ?>
 </body>
 
 </html>
