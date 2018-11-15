@@ -1,4 +1,4 @@
-    <header>
+    <header class="mb-5">
 		<div id="slide-out" class="side-nav sn-bg-4 red darken-4">
 			<ul class="custom-scrollbar">
 				<li>
@@ -14,6 +14,9 @@
 						</li>
 						<li class="mx-1">
 							<a href="//twitter.com/fundabit" target="_blank" class="icons-sm text-white"><i class="fab fa-twitter"></i></a>
+						</li>
+						<li class="mx-1">
+							<a href="//instagram.com/fundabit" target="_blank" class="icons-sm text-white"><i class="fab fa-instagram"></i></a>
 						</li>
 					</ul>
 				</li>
@@ -55,7 +58,7 @@
 			</div>
 			<ul class="nav navbar-nav nav-flex-icons ml-auto">
 				<li class="nav-item">
-					<a href="#!" class="nav-link"><i class="fas fa-user mr-2"></i> <span class="clearfix d-none d-sm-inline-block">Usuario</span></a>
+					<a href="./iniciar-sesion.php" class="nav-link"><i class="fas fa-user mr-2"></i> <span class="clearfix d-none d-sm-inline-block">Cuenta</span></a>
 				</li>
 			</ul>
 		</nav>
