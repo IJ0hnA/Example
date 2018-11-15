@@ -183,7 +183,7 @@
                 <div class="col-12 col-md-4 item computing">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
@@ -203,7 +203,7 @@
                 <div class="col-12 col-md-4 item networks">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
@@ -223,7 +223,7 @@
                 <div class="col-12 col-md-4 item telematics">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
@@ -243,7 +243,7 @@
                 <div class="col-12 col-md-4 item programming">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
@@ -263,7 +263,7 @@
                 <div class="col-12 col-md-4 item artificial-intelligence">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
@@ -283,7 +283,7 @@
                 <div class="col-12 col-md-4 item computing">
                     <div class="card card-cascade wider mb-2">
                         <div class="view view-cascade overlay">
-                            <img class="card-img-top" src="//via.placeholder.com/300x200" alt="Card image cap">
+                            <img class="card-img-top imageOfNews" src="//via.placeholder.com/300x200" alt="Card image cap">
                             <a href="#!">
                                 <div class="mask rgba-white-slight"></div>
                             </a>
