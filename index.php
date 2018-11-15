@@ -13,7 +13,7 @@
 <body class="hidden-sn">
 	<?php include './php/includes/menu.php' ?>
 
-	<main>
+	<main class="position-relative">
 		<div class="container h-100">
 			<p class="h1 h1-responsive text-center">Centro Bolivariano de Informática y Telemática</p>
 			<p class="h3 h3-responsive text-center text-muted">Slogan</p>

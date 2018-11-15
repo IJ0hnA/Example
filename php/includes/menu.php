@@ -33,10 +33,10 @@
 							<a href="./" class="waves-effect"><i class="fas fa-home mr-2"></i> Inicio</a>
 						</li>
 						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-building mr-2"></i> Sobre Nosotros</a>
+							<a href="./nosotros.php" class="waves-effect"><i class="fas fa-building mr-2"></i> Sobre Nosotros</a>
 						</li>
 						<li>
-							<a href="#!" class="waves-effect"><i class="fas fa-newspaper mr-2"></i> Noticias</a>
+							<a href="./noticias.php" class="waves-effect"><i class="fas fa-newspaper mr-2"></i> Noticias</a>
 						</li>
 						<li>
 							<a href="#!" class="waves-effect"><i class="fas fa-school mr-2"></i> Colegios</a>
