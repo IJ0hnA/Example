@@ -26,6 +26,10 @@ main {
     border: 2px solid #df001b;
 }
 
+.red.darken-4{
+    background:#03a7f3 !important;
+}
+
 .double-nav .button-collapse {
     position: static;
 }
